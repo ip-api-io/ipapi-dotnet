@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <!-- Response models are self-describing; don't require XML docs on every member. -->
+    <NoWarn>$(NoWarn);CS1591</NoWarn>
+
+    <PackageId>IpApiIo</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>ip-api.io</Authors>
+    <Description>Official .NET client for ip-api.io — IP geolocation, email validation, fraud detection and risk scoring API. Zero dependencies (HttpClient + System.Text.Json).</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageProjectUrl>https://ip-api.io</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ip-api-io/ipapi-dotnet</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageTags>ip-geolocation;geoip;email-validation;fraud-detection;risk-score;vpn-detection;tor-detection;whois;asn-lookup</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="../../README.md" Pack="true" PackagePath="/" />
+  </ItemGroup>
+
+</Project>
