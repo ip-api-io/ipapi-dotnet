@@ -110,3 +110,4 @@ foreach (var (email, result) in batch.Results)
 - [Fraud detection & risk scoring](fraud-risk-scoring.md) — `EmailRiskScoreAsync` for a 0–100 score
 - [ASN & DNS lookups](asn-and-dns.md) — `MxRecordsAsync` to inspect a domain's mail servers
 - Product pages: [Email validation](https://ip-api.io/email-validation) · [Advanced validation](https://ip-api.io/advanced-email-validation) · [Email verification API](https://ip-api.io/email-verification-api) · [Disposable email checker](https://ip-api.io/disposable-email-checker) · [Email list cleaning](https://ip-api.io/email-list-cleaning)
+- [Full tutorial on ip-api.io](https://ip-api.io/docs/sdk/dotnet/email-validation)
